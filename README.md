@@ -17,5 +17,11 @@ Your company was booked to create an infosite about the most famous hotels of th
 - The plain HTML prototype (see User Story 1) has placeholders which are replaced programmatically
 - The plain HTML prototype can be edited/enhanced with the help of placeholders without the need of changing the PHP Code.
 
+## User Story 3
+*As a Developer I want to create a functionality in my custom templating engine that supports loops, so that hotels which are added in the code are automatically rendered without having to alter the template*
+
+### Acceptance Criteria
+- The plain HTML prototype can display an arbitrary number of hotels based on the number of hotels created in the code
+
 #### Links
 https://my.skilldisplay.eu/en/skillset/85
