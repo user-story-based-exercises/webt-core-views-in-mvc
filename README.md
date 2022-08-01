@@ -1,2 +1,2 @@
-# webt-core-views-in-mvc
-WEBT | CORE | Views in MVC
+# WEBT | CORE | Views in MVC
+
