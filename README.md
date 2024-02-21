@@ -11,7 +11,7 @@ Your company was booked to create an infosite about the most famous hotels of th
 - There is a short information block about at least 3 different hotels 
 
 ## User Story 2
-*As a Developer I want to create a basic templating engine based on the PHP functions “fread” and “str_replace”, using HEREDOC for longer text in variables, in order to decouple the HTML view from the code.*
+*As a Developer I want to create a basic templating engine based on the PHP functions “file_get_contents” and “str_replace”, using HEREDOC for longer text in variables, in order to decouple the HTML view from the code.*
 
 ### Acceptance Criteria
 - The plain HTML prototype (see User Story 1) has placeholders which are replaced programmatically
