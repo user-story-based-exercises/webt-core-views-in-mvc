@@ -15,11 +15,13 @@ $hotel_data_2 = array(
 
 $hotelTemplate = fread(fopen('hotelpage.html', 'r'), filesize('hotelpage.html'));
 
-$hotelTemplate = str_replace('{hotel_name_1}', $hotel_data_1['name'], $hotelTemplate);
-$hotelTemplate = str_replace('{hotel_description_1}', $hotel_data_1['description'], $hotelTemplate);
-$hotelTemplate = str_replace('{hotel_address_1}', $hotel_data_1['address'], $hotelTemplate);
-$hotelTemplate = str_replace('{hotel_name_2}', $hotel_data_2['name'], $hotelTemplate);
-$hotelTemplate = str_replace('{hotel_description_2}', $hotel_data_2['description'], $hotelTemplate);
-$hotelTemplate = str_replace('{hotel_address_2}', $hotel_data_2['address'], $hotelTemplate);
+$hotelTemplate = str_replace('hotel_name_1', $hotel_data_1['name'], $hotelTemplate);
+$hotelTemplate = str_replace('hotel_description_1', $hotel_data_1['description'], $hotelTemplate);
+$hotelTemplate = str_replace('hotel_address_1', $hotel_data_1['address'], $hotelTemplate);
+
+$hotelTemplate = str_replace('hotel_name_2', $hotel_data_2['name'], $hotelTemplate);
+$hotelTemplate = str_replace('hotel_description_2', $hotel_data_2['description'], $hotelTemplate);
+$hotelTemplate = str_replace('hotel_address_2', $hotel_data_2['address'], $hotelTemplate);
+
 
 echo $hotelTemplate;
