@@ -1,7 +1,16 @@
 @media (min-width: 500px) and (max-width: 840px) {
   p {
-    font-size: 16px;
+    font-size: 14px;
   }
+
+  h2 {
+    font-size: 22px;
+  }
+
+  h2 {
+    font-size: 24px;
+  }
+
   .hotelContainer {
     max-width: 90%;
   }
@@ -10,7 +19,38 @@
   .hotelContainer {
     max-width: 50%;
   }
+
+  h2 {
+    font-size: 20px;
+  }
+
+  p {
+    font-size: 12px;
+  }
+
+  h2 {
+    font-size: 26px;
+  }
 }
+
+@media (min-width: 840px) {
+  .hotelContainer {
+    max-width: 90%;
+  }
+
+  p {
+    font-size: 16px;
+  }
+
+  h2 {
+    font-size: 24px;
+  }
+
+  h2 {
+    font-size: 28px;
+  }
+}
+
 body {
   font-family: Arial, sans-serif;
   margin-top: 15px;
