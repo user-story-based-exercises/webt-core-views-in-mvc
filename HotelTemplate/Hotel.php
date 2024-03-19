@@ -5,8 +5,6 @@ class Hotel {
     private string $description;
     private string $address;
 
-    private string $src;
-
     /**
      * @param string $name
      * @param string $description
@@ -19,7 +17,7 @@ class Hotel {
         $this->address = $address;
     }
 
-    
+
     public function getName(): string
     {
         return $this->name;
